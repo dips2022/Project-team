@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginPage</title>
+</head>
+ <style>
+     body{
+        background-color: rgb(120, 120, 237);
+     }
+     div{
+         height:100%;
+         width: 30%;
+         border-radius: 15px;
+         margin: auto;
+         border: 1px solid transparent;
+         background-color: white;
+     }
+     div>h1{
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 90px;
+        font-size:50px;
+     }
+     div>input{
+         display: flex;
+         border: transparent;
+         margin: 30px 30px 30px 40px;
+         text-decoration: underline;
+         width: 80%;
+     }
+     div>p{
+         text-align: center;
+     }
+     #submit {
+        width: 80%;
+        margin-left: 40px;
+        background-color: rgb(120, 120, 237);
+        color: white;
+        border: none;
+        text-align: center;
+        padding: 20px 50px 20px 50px;
+        cursor: pointer;
+
+    }
+    #frgt{
+        margin-top: 80px; 
+    }
+    #sign{
+        margin-bottom: 90px;
+    }
+ </style>
+<body>
+    <div>
+        <h1>Login</h1>
+        <input type="text" placeholder="Email">
+        <input type="text" placeholder="Password">
+        <button id="submit">Login</button>
+        <p id="frgt">Forget <a href="password">Password</a>?</p>
+        <p id="sign">Don't have an account? <a href="sign">Sign up</a></p>
+    </div>
+</body>
+</html>
